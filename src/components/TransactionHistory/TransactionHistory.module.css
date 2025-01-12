@@ -1,0 +1,25 @@
+.history {
+  width: auto;
+  border-collapse: collapse;
+  margin: 0 auto 16px;
+}
+
+.headerItem,
+.dataItem {
+  border: 2px solid black;
+  padding: 4px 60px;
+  text-align: center;
+}
+
+.headerItem {
+  background-color: rgb(67, 65, 65);
+  color: white;
+}
+
+.dataBody > tr:nth-child(even) {
+  background-color: rgb(172, 172, 170);
+}
+
+.dataItem:first-child {
+  text-align: left;
+}
