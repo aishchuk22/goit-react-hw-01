@@ -1,0 +1,25 @@
+.friendListItem {
+  border: 2px solid black;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-direction: column;
+  width: 120px;
+  padding: 12px;
+}
+
+.online {
+  color: green;
+  font-size: 20px;
+}
+
+.offline {
+  color: red;
+  font-size: 20px;
+}
+
+.friendName {
+  font-size: 26px;
+  font-weight: 500;
+}
